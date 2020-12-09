@@ -1,0 +1,174 @@
+@charset "utf-8";
+/* CSS.archiCompo */
+
+body {           
+   background-image: url(image05/Farnsworth.jpg);
+   background-size: cover;              
+   background-attachment: fixed;       
+   background-position: center;
+   background-attachment: fixed;
+   }
+
+
+/*header section */
+
+header{
+height: 300px;
+margin-top: 100px;
+margin-bottom: 100px;
+color:#133264;
+text-align: center;
+font-size: 70px;
+font-weight: bold;}
+
+
+
+ul{
+   color: aliceblue;
+   text-align: right;
+   text-decoration: none;
+   margin-right: 50px;
+   font-size: x-large;
+   list-style-type:none;
+   
+   
+}
+
+/*main section */
+
+.total{
+   display: flex;
+   flex-direction: raw;
+}
+
+.second{
+   display: flex;
+   flex-direction: column;
+   width: 80%;
+}
+main{
+   text-align: left;
+   display: flex;
+   flex-direction: column;
+   background-color:#c5d3ec;
+   opacity: 0.8;
+   width: auto;
+}
+
+nav{
+    width: 20%;
+    background-color: black;
+    opacity: 0.8;
+    color: aliceblue;
+    margin: 0px 10px 0px 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+aside{
+   width: 20%;
+   background-color: #060e1f;
+   opacity: 0.8;
+   color:white;
+   margin: 0px 10px 0px 10px;
+   padding: 5px;
+   display: flex;
+   flex-direction: column;
+}
+.section{
+   width: auto;
+   background-color: aliceblue;
+   text-align: left;
+   margin: 5px 30px 5px 30px;
+   font-size: 20px; 
+}
+.section2{
+   width: auto;
+   background-color: rgb(30, 31, 32);
+   color: aliceblue;
+   text-align: center;
+   margin: 5px 30px 5px 30px;
+   font-size: 20px; 
+   opacity: 1;
+}
+
+.article {
+   height: auto; 
+   text-align: left; 
+   color: aliceblue; 
+   background-color:rgb(66, 61, 61);
+   padding: 10px;
+   margin: 10px;
+}
+
+/*footer section */
+footer{
+   text-align: center;
+   vertical-align: baseline;
+   margin-top: 10px;
+   height: 120px;
+   color: aliceblue;
+   background-color: #133264;
+   opacity: 0.8;
+}
+
+/*ptag 設定
+
+.p1{color: aliceblue;
+   text-align: center;
+   margin-top: 30px;
+   font-size: 30px;
+   }
+.p2{color: azure;
+   text-align: center;
+   margin-top: 100px;
+   margin-bottom: 100px;
+   font-size: 50px;}
+   
+.p3{color: rgb(36, 233, 174);
+   text-align: left;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   font-size: 20px;}
+.p4{
+      text-align: center;
+      margin-top: 30px;
+      margin-bottom: 60px;
+      font-size: 60px;
+      color: #09265c;
+   }
+   
+/* div 設定
+.div1{
+   height: auto; 
+   text-align: center; 
+   color: #09265c; 
+   background-color:white;
+   padding: 10px 20px 10px 100px;
+   margin: 10px;
+}
+
+.div2{
+   width: 150px;
+   background-color: #09265c;
+   color:white;
+   padding: 5px;
+   word-wrap: normal;
+}
+.divconte{
+   display: flex;
+   flex-wrap: wrap;
+}
+.divcard{
+   flex-direction: row;
+   margin: 20px 20px 20px 20px;
+}
+
+.space{
+   padding: 100px 20px 100px 20px;
+}
+.space1{
+   padding: 200px 20px 100px 20px;
+}
